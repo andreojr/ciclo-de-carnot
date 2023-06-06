@@ -1,0 +1,63 @@
+html, body {
+    height: 100%;
+}
+
+*, html, body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #343434;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    color: #3CC03A;
+    font-size: 1.5rem;
+}
+
+section {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-auto-flow: row;
+    gap: 2rem;
+}
+
+.etapa {
+    margin: 1rem 0;
+}
+
+.etapa video {
+    width: 100%;
+}
+
+section a {
+    display: block;
+    opacity: .5;
+}
+
+h2 {
+    margin: 1rem 0;
+}
+
+video {
+    width: 500px;
+}
